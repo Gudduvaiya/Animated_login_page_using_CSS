@@ -222,7 +222,7 @@
         <span></span>
         <span></span>
         <span></span> -->
-        <!-- <span id="spani"></span> -->
+        <div class="spani"></div>
         <!-- <span></span>
         <span></span>
         <span></span>
@@ -277,12 +277,13 @@
     <script>
         // let span=document.getElementById("spani")
         // span.innerHTML="abc"
-        document.getElementById("sec").innerHTML=htmlString
+        var section=document.querySelector(".spani")
         // multipleTags(240)
-        let htmlString="";
+        var htmlString="";
         for(let i=0;i<=240;i++){
-            htmlString+="<div></div>"
+            htmlString+="<span></span>"
         }
+        section.innerHTML=htmlString
         // function multipleTags(items){
         // }
     </script>

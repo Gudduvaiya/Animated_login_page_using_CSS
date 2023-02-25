@@ -12,6 +12,10 @@ body {
     min-height: 100vh;
     background-color: black;
 }
+/* looping class  */
+.spani{
+    display: flex;
+}
 
 section {
     position: absolute;
